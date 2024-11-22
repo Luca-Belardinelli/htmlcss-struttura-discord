@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* regole header */
+header{
+    background-color: rgb(176, 218, 241);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+
+
+#header-nav{
+    display: flex;
+    width: 70%;
+    background-color: rgb(224, 185, 76);
+    
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+.logo{
+    width: 20%;
+    padding: 5px;
+}
+
+
+.login{
+    width:20%;
+    text-align: right;
+    padding: 5px;
+}
+
+.link{
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+}
+
+.pink{
+    background-color: rgb(219, 123, 223);
+    width: 40%;
+    height: 300px;
+}
+
+
+.blue{
+    background-color: rgb(10, 10, 204);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content:center ;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    
+}
+
+
+.square-1{
+    background-color: rgb(19, 143, 200);
+    width: 30%;
+    height: 350px;
+
+}
+
+.square-2{
+    background-color: pink;
+    width: 20%;
+    height: 350px;
+}
+
+
+
+.container-2{
+    background-color: rgb(215, 213, 213);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.square-3{
+    background-color: pink;
+    width: 20%;
+    height: 350px;
+}
+
+.square-4{
+    background-color: rgb(19, 143, 200);
+    width: 30%;
+    height: 350px;
+}
+
+
+.box-green{
+    background-color: rgb(14, 149, 73);
+    width: 50%;
+    height: 650px;
+}
+
+
