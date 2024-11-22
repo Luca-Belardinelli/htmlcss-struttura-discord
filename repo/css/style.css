@@ -17,7 +17,7 @@ header{
 
 #header-nav{
     display: flex;
-    width: 70%;
+    width: 60%;
     background-color: rgb(224, 185, 76);
     
 }
@@ -69,14 +69,14 @@ header{
 }
 
 
-.square-1{
+.column-1{
     background-color: rgb(19, 143, 200);
     width: 30%;
     height: 350px;
 
 }
 
-.square-2{
+.column-2{
     background-color: pink;
     width: 20%;
     height: 350px;
@@ -93,13 +93,13 @@ header{
     padding: 40px;
 }
 
-.square-3{
+.column-3{
     background-color: pink;
     width: 20%;
     height: 350px;
 }
 
-.square-4{
+.column-4{
     background-color: rgb(19, 143, 200);
     width: 30%;
     height: 350px;
@@ -112,4 +112,53 @@ header{
     height: 650px;
 }
 
+.container-3{
+    background-color: rgb(42, 42, 42);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+   
+}
 
+
+.column-5{
+    background-color: rgb(227, 129, 118);
+    width: 16%;
+    height: 350px;
+}
+
+.column-6{
+    background-color: rgb(54, 191, 168);
+    width: 8%;
+    height: 350px;
+}
+
+footer{
+    background-color: rgb(42, 42, 42);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#container-4{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    background-color: rgba(118, 226, 201, 0.96);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sx{
+    background-color:pink ;
+    height: 20px;
+}
+
+.dx{
+    background-color:pink ;
+    height: 20px;
+}
